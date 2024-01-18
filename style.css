@@ -1,0 +1,39 @@
+body {
+    background-image: url('q.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h1, label, button {
+    color: black;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+}
+
+button.show-students-btn {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: black;
+}
+
+li {
+    margin-bottom: 10px;
+}

@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (error) {
             console.error('Error creating Mentor:', error);
             displayResult('createMentorResult', 'Failed to create Mentor', false);
-        }
+        } 
     });
 
     // Event listener for creating a student
